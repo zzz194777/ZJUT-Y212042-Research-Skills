@@ -1,0 +1,338 @@
+[
+  {
+    "title": "DepMamba: Progressive Fusion Mamba for Multimodal Depression Detection",
+    "abstract": "Depression is a common mental disorder that affects millions of people worldwide. Although promising, current multimodal methods hinge on aligned or aggregated multi-modal fusion, suffering two significant limitations: (i) inefficient long-range temporal modeling, and (ii) sub-optimal multimodal fusion between intermodal fusion and intramodal processing. In this paper, we propose an audio-visual progressive fusion Mamba for multimodal depression detection, termed DepMamba. DepMamba features two core designs: hierarchical contextual modeling and progressive multimodal fusion. On the one hand, hierarchical modeling introduces convolution neural networks and Mamba to extract the local-to-global features within long-range sequences. On the other hand, the progressive fusion first presents a multimodal collaborative State Space Model (SSM) extracting intermodal and intramodal information for each modality, and then utilizes a multimodal enhanced SSM for modality cohesion. Extensive experime",
+    "venue": "ICASSP",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/icassp49660.2025.10889975",
+    "authors": [
+      "Jiaxin Ye",
+      "Junping Zhang",
+      "Hongming Shan"
+    ],
+    "externalIds": {
+      "DOI": "10.1109/icassp49660.2025.10889975"
+    },
+    "source": "openalex",
+    "citationCount": 19,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 1
+  },
+  {
+    "title": "EMO-Mamba: Multimodal Selective Structured State Space Model for Depression Detection",
+    "abstract": "Depression is a severe mental disorder that significantly affects health and quality of life, making early detection critical for effective treatment and management. In traditional clinical diagnostics, doctors and mental health professionals typically assess emotional states by observing patients’ facial expressions and listening to their speech. Changes in facial expressions can reflect emotional responses, while vocal features such as tone and pace may indicate underlying emotional distress or psychological conditions. Artificial intelligence technologies are adept at efficiently extracting and analyzing these multimedia signals. However, existing methods often overlook critical information when processing long-time series data and struggle to handle multiple modalities simultaneously. To address these issues, we propose the EMO-Mamba, which utilizes selective mechanisms and state space models (SSM) to filter important features and effectively maintain memory over long time-series.",
+    "venue": "BIBM",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/bibm62325.2024.10822789",
+    "authors": [
+      "Tao Xing",
+      "Yutao Dou",
+      "Xiaolan Xie",
+      "Jiansong Zhou",
+      "Xianliang Chen",
+      "Shaoliang Peng"
+    ],
+    "externalIds": {
+      "DOI": "10.1109/bibm62325.2024.10822789"
+    },
+    "source": "openalex",
+    "citationCount": 5,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 2
+  },
+  {
+    "title": "Beyond Silent Letters: Amplifying LLMs in Emotion Recognition with Vocal Nuances",
+    "abstract": "Emotion recognition in speech is a challenging multimodal task that requires understanding both verbal content and vocal nuances.This paper introduces a novel approach to emotion detection using Large Language Models (LLMs), which have demonstrated exceptional capabilities in natural language understanding.To overcome the inherent limitation of LLMs in processing audio inputs, we propose SpeechCueLLM, a method that translates speech characteristics into natural language descriptions, allowing LLMs to perform multimodal emotion analysis via text prompts without any architectural changes.Our method is minimal yet impactful, outperforming baseline models that require structural modifications.We evaluate SpeechCueLLM on two datasets: IEMOCAP and MELD, showing significant improvements in emotion recognition accuracy, particularly for high-quality audio data.We also explore the effectiveness of various feature representations and fine-tuning strategies for different LLMs.Our experiments reve",
+    "venue": "ACL",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.findings-naacl.117.pdf",
+    "authors": [
+      "Zehui Wu",
+      "Ziwei Gong",
+      "Lin Ai",
+      "Pengyuan Shi",
+      "Kaan Donbekci",
+      "Julia Hirschberg"
+    ],
+    "externalIds": {
+      "DOI": "10.18653/v1/2025.findings-naacl.117"
+    },
+    "source": "openalex",
+    "citationCount": 18,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 3
+  },
+  {
+    "title": "MDDMamba: A Model for Multi-Modal Depression Detection with a Memory-Saving Cross-Modal Attention Mechanism Based on Mamba",
+    "abstract": "Depression is a severe mental health disorder that constitutes a significant global health challenge, necessitating efficient and accurate automated diagnostic tools. Traditional approaches to automated depression assessment using multi-modal data often face three significant difficulties: small sample sizes in available datasets, high computational cost, and difficulties in effectively integrating different modalities. In this paper, we first mitigate the problem of dataset quality by utilizing an estimated imputation strategy for missing values based on a known data augmentation method. Additionally, we introduce a multi-modal depression detection model named MDDMamba, designed to address the latter two challenges by integrating features from pre-trained emotion models with the memory-efficient selective state space model named Mamba. The MDDMamba model combines features from pre-trained emotion models for both text and audio, enhancing the extraction of emotional information. The co",
+    "venue": "BIBM",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/bibm62325.2024.10822358",
+    "authors": [
+      "Menghao Liu",
+      "Z. M. Wang",
+      "Feng Liu"
+    ],
+    "externalIds": {
+      "DOI": "10.1109/bibm62325.2024.10822358"
+    },
+    "source": "openalex",
+    "citationCount": 4,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 4
+  },
+  {
+    "title": "TF-Mamba: Text-enhanced Fusion Mamba with Missing Modalities for Robust Multimodal Sentiment Analysis",
+    "abstract": "Multimodal Sentiment Analysis (MSA) with missing modalities has attracted increasing attention recently.While current Transformerbased methods leverage dense text information to maintain model robustness, their quadratic complexity hinders efficient long-range modeling and multimodal fusion.To this end, we propose a novel and efficient Text-enhanced Fusion Mamba (TF-Mamba) framework for robust MSA with missing modalities.Specifically, a Text-aware Modality Enhancement (TME) module aligns and enriches non-text modalities, while reconstructing the missing text semantics.Moreover, we develop Textbased Context Mamba (TC-Mamba) to capture intra-modal contextual dependencies under text collaboration.Finally, Text-guided Query Mamba (TQ-Mamba) queries text-guided multimodal information and learns joint representations for sentiment prediction.Extensive experiments on three MSA datasets demonstrate the effectiveness and efficiency of the proposed method under missing modality scenarios.Code is",
+    "venue": "EMNLP",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.findings-emnlp.602.pdf",
+    "authors": [
+      "Xiang Li",
+      "Xianfu Cheng",
+      "Dezhuang Miao",
+      "Xiaoming Zhang",
+      "Zhoujun Li"
+    ],
+    "externalIds": {
+      "DOI": "10.18653/v1/2025.findings-emnlp.602"
+    },
+    "source": "openalex",
+    "citationCount": 3,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 5
+  },
+  {
+    "title": "Structured State Space Duality (SSD) for RobustMechanical Fault Diagnosis: A Mamba-2 BasedApproach under Harsh Industrial Noise",
+    "abstract": "Accurate fault diagnosis of rolling element bearings is paramount for ensuring the operational reliability and safety of modern rotating machinery. While deep learning-based paradigms, such as Convolutional Neural Networks (CNNs) and Transformers, have demonstrated significant potential, they frequently encounter challenges in capturing long-range temporal dependencies within high-frequency vibration signals and suffer from severe performance degradation under harsh industrial noise. Furthermore, the quadratic computational complexity of Transformers poses a substantial bottleneck for real-time monitoring on edge devices. To address these issues, this paper proposes a novel robust diagnostic framework based on the state-of-the-art Mamba-2 (Structured State Space Duality) architecture. By leveraging the data-dependent selective scan mechanism, the proposed model adaptively isolates salient fault-induced impulsive signatures from stochastic background interference. To further bridge the gap between idealized laboratory data and real-world industrial scenarios, a noise-aware training strategy is integrated to enhance the manifold robustness of the state-space representation. Extensive experiments are conducted on the Case Western Reserve University (CWRU) bearing dataset and the Paderborn University (PU) bearing dataset, and benchmarked against 1D-CNN and state-of-the-art Transformers. Results demonstrate that the proposed Mamba-2 model achieves a perfect 100% accuracy under clean conditions and maintains a superior diagnostic accuracy of 78.90% at an extreme signal-to-noise ratio (SNR) of −6 dB, significantly outperforming 1D-CNN (60.34%) and Transformer-1D (22.78%). Hardware efficiency analysis on an NVIDIA RTX A5000 platform reveals that Mamba2 reduces peak memory consumption by 67.1% and accelerates inference by 1.74 times compared to Transformers, effectively eliminating the O(L 2 ) complexity bottleneck. Visualization via t-distributed Stochastic Neighbor Embedding (t-SNE) further confirms the model’s ability to learn highly discriminative and compact feature clusters. This research provides a high-efficiency and ultra-robust paradigm for intelligent fault diagnosis in complex industrial environments.",
+    "venue": "SSRN",
+    "year": "2026",
+    "url": "https://doi.org/10.2139/ssrn.6174525",
+    "authors": [
+      "Wang, Yi"
+    ],
+    "externalIds": {
+      "DOI": "10.2139/ssrn.6174525"
+    },
+    "source": "crossref",
+    "citationCount": 0,
+    "peer_reviewed": false,
+    "arxiv_id": "",
+    "_id": 6
+  },
+  {
+    "title": "DynMultiDep: A Dynamic Multimodal Fusion and Multi-Scale Time Series Modeling Approach for Depression Detection",
+    "abstract": "Depression is a prevalent mental disorder that imposes a significant public health burden worldwide. Although multimodal detection methods have shown potential, existing techniques still face two critical bottlenecks: (i) insufficient integration of global patterns and local fluctuations in long-sequence modeling and (ii) static fusion strategies that fail to dynamically adapt to the complementarity and redundancy among modalities. To address these challenges, this paper proposes a dynamic multimodal depression detection framework, DynMultiDep, which combines multi-scale temporal modeling with an adaptive fusion mechanism. The core innovations of DynMultiDep lie in its Multi-scale Temporal Experts Module (MTEM) and Dynamic Multimodal Fusion module (DynMM). On one hand, MTEM employs Mamba experts to extract long-term trend features and utilizes local-window Transformers to capture short-term dynamic fluctuations, achieving adaptive fusion through a long-short routing mechanism. On the o",
+    "venue": "Journal of Imaging",
+    "year": 2026,
+    "url": "https://www.mdpi.com/2313-433X/12/1/29/pdf?version=1767703138",
+    "authors": [
+      "Jincheng Li",
+      "Menglin Zheng",
+      "Jiongyi Yang",
+      "Yihui Zhan",
+      "Xing Xie"
+    ],
+    "externalIds": {
+      "DOI": "10.3390/jimaging12010029"
+    },
+    "source": "openalex",
+    "citationCount": 0,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 7
+  },
+  {
+    "title": "Mamba YOLO: A Simple Baseline for Object Detection with State Space Model",
+    "abstract": "Driven by the rapid development of deep learning technology, the YOLO series has set a new benchmark for real-time object detectors. Additionally, transformer-based structures have emerged as the most powerful solution in the field, greatly extending the model's receptive field and achieving significant performance improvements. However, this improvement comes at a cost, as the quadratic complexity of the self-attentive mechanism increases the computational burden of the model. To address this problem, we introduce a simple yet effective baseline approach called Mamba YOLO. Our contributions are as follows: 1) We propose that the ODMamba backbone introduce a State Space Model (SSM) with linear complexity to address the quadratic complexity of self-attention.  Unlike the other Transformer-base and SSM-base method, ODMamba is simple to train without pretraining. 2) For real-time requirement, we designed the macro structure of ODMamba, determined the optimal stage ratio and scaling size. 3) We design the RG Block that employs a multi-branch structure to model the channel dimensions, which addresses the possible limitations of SSM in sequence modeling, such as insufficient receptive fields and weak image localization. This design captures localized image dependencies more accurately and significantly. Extensive experiments on the publicly available COCO benchmark dataset show that Mamba YOLO achieves state-of-the-art performance compared to previous methods. Specifically, a tiny version of Mamba YOLO achieves a 7.5% improvement in mAP on a single 4090 GPU with an inference time of 1.5 ms.",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2025",
+    "url": "https://doi.org/10.1609/aaai.v39i8.32885",
+    "authors": [
+      "Wang, Zeyu",
+      "Li, Chen",
+      "Xu, Huiying",
+      "Zhu, Xinzhong",
+      "Li, Hongbo"
+    ],
+    "externalIds": {
+      "DOI": "10.1609/aaai.v39i8.32885"
+    },
+    "source": "crossref",
+    "citationCount": 95,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 8
+  },
+  {
+    "title": "Deep Learning and Large Language Models for Audio and Text Analysis in Predicting Suicidal Acts in Chinese Psychological Support Hotlines",
+    "abstract": "Suicide is a pressing global issue, demanding urgent and effective preventive interventions. Among the various strategies in place, psychological support hotlines had proved as a potent intervention method. Approximately two million people in China attempt suicide annually, with many individuals making multiple attempts. Prompt identification and intervention for high-risk individuals are crucial to preventing tragedies. With the rapid advancement of artificial intelligence (AI), especially the development of large-scale language models (LLMs), new technological tools have been introduced to the field of mental health. This study included 1284 subjects, and was designed to validate whether deep learning models and LLMs, using audio and transcribed text from support hotlines, can effectively predict suicide risk. We proposed a simple LLM-based pipeline that first summarizes transcribed text from approximately one hour of speech to extract key features, and then predict suicidial bahavio",
+    "venue": "arXiv (Cornell University)",
+    "year": 2024,
+    "url": "https://arxiv.org/pdf/2409.06164",
+    "authors": [
+      "Yining Chen",
+      "Jianqiang Li",
+      "Changwei Song",
+      "Qing Zhao",
+      "Yongsheng Tong",
+      "Guanghui Fu"
+    ],
+    "externalIds": {
+      "DOI": "10.48550/arxiv.2409.06164"
+    },
+    "source": "openalex",
+    "citationCount": 3,
+    "peer_reviewed": false,
+    "arxiv_id": "2409.06164",
+    "_id": 9
+  },
+  {
+    "title": "An Efficient Fire Detection Algorithm Based on Mamba Space State Linear Attention",
+    "abstract": "Abstract\n        The Mamba model, as a State Space Model (SSM), enhances the global receptive field and feature extraction capabilities of object detection models through an architecture inspired by Recurrent Neural Networks (RNNs). Compared to traditional Convolutional Neural Networks (CNNs) and Transformers, it excels in handling complex scale variations and multi-view interference, offering a novel approach for object detection tasks in dynamic environments such as fire detection. Therefore, this paper proposes an efficient attention mechanism, the Efficient-Mamba-Attention (EMA) module, which enhances input features through adaptive average pooling and SSM modules. By integrating the EMA module with the YOLOv9 architecture, a highly efficient fire detection algorithm is proposed, particularly suitable for complex scenarios. Additionally, the model introduces the ConvNeXtV2 block to strengthen the backbone network, compensating for the limitations of SSM models in local feature modeling. Finally, the introduction of dynamic non-monotonic focusing and distance penalty mechanisms optimizes the loss function, improving the accuracy of the detection bounding boxes and significantly enhancing the precision and robustness of the fire alarm tasks. Comparative experiments demonstrate that the proposed network excels in terms of AP50 and FPS, achieving an AP50 of 91.0% on the large-scale fire dataset (dataset1), and 87.2% on the small-scale fire dataset (dataset2), with FPS reaching 71 on dataset1 and 64 on dataset2. This demonstrates that the proposed method maintains high detection performance while achieving outstanding efficiency.",
+    "venue": "Research Square",
+    "year": "2025",
+    "url": "https://doi.org/10.21203/rs.3.rs-5986604/v1",
+    "authors": [
+      "Li, Yuming",
+      "Wang, Yongjie",
+      "Shao, Xiaorui",
+      "Zheng, Anbo"
+    ],
+    "externalIds": {
+      "DOI": "10.21203/rs.3.rs-5986604/v1"
+    },
+    "source": "crossref",
+    "citationCount": 0,
+    "peer_reviewed": false,
+    "arxiv_id": "",
+    "_id": 10
+  },
+  {
+    "title": "xLSTM: Extended Long Short-Term Memory",
+    "abstract": "In the 1990s, the constant error carousel and gating were introduced as the central ideas of the Long Short-Term Memory (LSTM). Since then, LSTMs have stood the test of time and contributed to numerous deep learning success stories, in particular they constituted the first Large Language Models (LLMs). However, the advent of the Transformer technology with parallelizable self-attention at its core marked the dawn of a new era, outpacing LSTMs at scale. We now raise a simple question: How far do we get in language modeling when scaling LSTMs to billions of parameters, leveraging the latest techniques from modern LLMs, but mitigating known limitations of LSTMs? Firstly, we introduce exponential gating with appropriate normalization and stabilization techniques. Secondly, we modify the LSTM memory structure, obtaining: (i) sLSTM with a scalar memory, a scalar update, and new memory mixing, (ii) mLSTM that is fully parallelizable with a matrix memory and a covariance update rule. Integrati",
+    "venue": "arXiv (Cornell University)",
+    "year": 2024,
+    "url": "https://arxiv.org/pdf/2405.04517",
+    "authors": [
+      "Maximilian Beck",
+      "Korbinian Pöppel",
+      "Markus Spanring",
+      "Andreas Auer",
+      "O. G. PRUDNIKOVA",
+      "Michael Kopp",
+      "Günter Klambauer",
+      "J. Brandstetter",
+      "Sepp Hochreiter"
+    ],
+    "externalIds": {
+      "DOI": "10.48550/arxiv.2405.04517"
+    },
+    "source": "openalex",
+    "citationCount": 87,
+    "peer_reviewed": false,
+    "arxiv_id": "2405.04517",
+    "_id": 11
+  },
+  {
+    "title": "FDA-CAPMA: Federated domain adaptation with co-activation pattern and multimodal mamba for fMRI depression detection",
+    "abstract": "",
+    "venue": "Information Fusion",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.inffus.2026.104213",
+    "authors": [
+      "Lang He",
+      "Changwei Zhao",
+      "Yimeng Wang",
+      "Zi Peng",
+      "Huaning Wang",
+      "Feng Zhu",
+      "Ercheng Pei",
+      "Haifeng Chen",
+      "Jiewei Jiang",
+      "Dongmei Jiang",
+      "Jie Zhang",
+      "Zhongmin Wang",
+      "Prayag Tiwari",
+      "Guangxin Guo",
+      "Min Fang"
+    ],
+    "externalIds": {
+      "DOI": "10.1016/j.inffus.2026.104213"
+    },
+    "source": "openalex",
+    "citationCount": 4,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 12
+  },
+  {
+    "title": "Lingo-Aura: A Cognitive-Informed and Numerically Robust Multimodal Framework for Predictive Affective Computing in Clinical Diagnostics",
+    "abstract": "Accurate assessment of emotional states is critical in clinical diagnostics, yet traditional multimodal sentiment analysis often suffers from \"modality laziness,\" where models overlook subtle micro-expressions in favor of text priors. This study proposes Lingo-Aura, a cognitive-enhanced framework based on Mistral-7B designed to align visual micro-expressions and acoustic signals with large language model (LLM) embeddings. We introduce a robust Double-MLP Projector and global mean pooling to bridge the modality gap while suppressing temporal noise and ensuring numerical stability during mixed-precision training. Crucially, the framework leverages a teacher LLM to generate meta-cognitive label, such as reasoning mode and information stance, which are injected as explicit context to guide deep intent reasoning. Experimental results on the CMU-MOSEI dataset demonstrate that Lingo-Aura achieves a 135% improvement in emotion intensity correlation compared to text-only baselines. These findin",
+    "venue": "Preprints.org",
+    "year": 2026,
+    "url": "https://www.preprints.org/frontend/manuscript/ee5174f6e348ece57e135edeb28aca38/download_pub",
+    "authors": [
+      "Lianghao Tan",
+      "Yongjia Song",
+      "Ziyan Wen"
+    ],
+    "externalIds": {
+      "DOI": "10.20944/preprints202601.0672.v1"
+    },
+    "source": "openalex",
+    "citationCount": 4,
+    "peer_reviewed": false,
+    "arxiv_id": "",
+    "_id": 13
+  },
+  {
+    "title": "SpeechT-RAG: Reliable Depression Detection in LLMs with Retrieval-Augmented Generation Using Speech Timing Information",
+    "abstract": "Large Language Models (LLMs) have been increasingly adopted for health-related tasks, yet their performance in depression detection remains limited when relying solely on text input.While Retrieval-Augmented Generation (RAG) typically enhances LLM capabilities, our experiments indicate that traditional text-based RAG systems struggle to significantly improve depression detection accuracy.This challenge stems partly from the rich depression-relevant information encoded in acoustic speech patterns -information that current text-only approaches fail to capture effectively.To address this limitation, we conduct a systematic analysis of temporal speech patterns, comparing healthy individuals with those experiencing depression.Based on our findings, we introduce Speech Timing-based Retrieval-Augmented Generation, SpeechT-RAG, a novel system that leverages speech timing features for both accurate depression detection and reliable confidence estimation.This integrated approach not only outperf",
+    "venue": "ACL",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.findings-acl.521.pdf",
+    "authors": [
+      "Xiangyu Zhang",
+      "Hexin Liu",
+      "Qiquan Zhang",
+      "Beena Ahmed",
+      "Julien Epps"
+    ],
+    "externalIds": {
+      "DOI": "10.18653/v1/2025.findings-acl.521"
+    },
+    "source": "openalex",
+    "citationCount": 2,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 14
+  },
+  {
+    "title": "Multi-Modal masked autoencoder and parallel Mamba for 3D brain tumor segmentation",
+    "abstract": "Accurate segmentation of brain tumors from multimodal MRI is essential for diagnosis and treatment planning. However, most existing approaches can only process single type of data modality, without exploiting the complementary information across different modalities. To overcome this limitation, a novel framework called MFMamba which integrates modality-aware masked autoencoder pretraining, a gated fusion strategy, and a Mamba-based backbone for efficient long-range modeling is proposed. In this design, one modality is fully masked while others are partially masked, forcing the network to reconstruct missing data through cross-modal learning. The gated fusion module then selectively incorporates generative priors into task-specific features, enhancing multimodal representations. Experimental results on the BraTS 2023 dataset show that MFMamba achieves Dice score of 93.77% for Whole Tumor and 92.69% for Tumor Core, corresponding to 1.6–2.1% improvements over state-of-the-art baselines.",
+    "venue": "Pattern Recognition Letters",
+    "year": 2025,
+    "url": "https://doi.org/10.1016/j.patrec.2025.10.020",
+    "authors": [
+      "Yaya Huang",
+      "Litong Liu",
+      "Tianzhen Zhang",
+      "Sisi Wang",
+      "Chee‐Ming Ting"
+    ],
+    "externalIds": {
+      "DOI": "10.1016/j.patrec.2025.10.020"
+    },
+    "source": "openalex",
+    "citationCount": 1,
+    "peer_reviewed": true,
+    "arxiv_id": "",
+    "_id": 15
+  }
+]
