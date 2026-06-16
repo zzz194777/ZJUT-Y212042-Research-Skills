@@ -427,7 +427,7 @@ skills/auto-academic-workflow/
 
 ### 9.2 Pull Request 链接
 
-（待提交 PR 后填写）
+https://github.com/wangzheng17/ZJUT-Y212042-Research-Skills/pull/13
 
 ---
 
